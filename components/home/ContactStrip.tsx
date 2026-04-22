@@ -32,7 +32,7 @@ export default function ContactStrip() {
           </FadeIn>
 
           <FadeIn delay={150}>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {[
                 { label: "Address", value: "203 Anderson Street\nPortland, ME 04101" },
                 { label: "Phone", value: "(207) 773-1400" },
@@ -46,9 +46,9 @@ export default function ContactStrip() {
                   <p className="text-xs font-mono tracking-widest text-blue-200 uppercase mb-2">
                     {label}
                   </p>
-                  <p className="text-white font-medium text-sm whitespace-pre-line leading-relaxed">
-                    {value}
-                  </p>
+                  <p className="text-white font-medium text-sm whitespace-pre-line leading-relaxed break-all">
+  {value}
+</p>
                 </div>
               ))}
             </div>
