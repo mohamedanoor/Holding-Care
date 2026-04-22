@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { clsx } from "clsx";
+import Image from "next/image";
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -36,19 +37,8 @@ export default function Navbar() {
       <nav className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3 hover:opacity-90 transition-opacity">
-          {/*
-            Drop your logo PNG at public/logo.png and uncomment this:
-            <Image src="/logo.png" alt="Holding Care" width={140} height={48} className="h-10 w-auto" />
-          */}
-          <div className="flex items-center gap-2">
-            <div className="w-9 h-9 rounded-lg bg-[var(--green)] flex items-center justify-center">
-              <span className="text-white font-bold text-sm font-mono">HC</span>
-            </div>
-            <span className="font-semibold text-[var(--text)] text-lg leading-tight">
-              Holding<span className="text-[var(--green)]">Care</span>
-            </span>
-          </div>
-        </Link>
+  <Image src="/logo.png" alt="Holding Care" width={160} height={56} className="h-12 w-auto" />
+          </Link>
 
         {/* Desktop links */}
         <ul className="hidden md:flex items-center gap-8">
