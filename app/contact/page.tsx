@@ -15,9 +15,9 @@ export default function Contact() {
       <section className="bg-[var(--bg-surface)] border-b border-[var(--border-light)] pt-32 pb-14 px-6">
         <div className="max-w-4xl mx-auto">
           <FadeIn>
-            <p className="text-sm font-mono tracking-widest text-[var(--green)] uppercase mb-4">
+            <span className="inline-block bg-[var(--green-light)] text-[var(--green-dark)] text-sm font-semibold px-4 py-1.5 rounded-full mb-5">
               Contact
-            </p>
+            </span>
             <h1 className="text-4xl md:text-5xl font-semibold text-[var(--text)] leading-tight mb-5">
               Get in Touch
             </h1>
@@ -39,7 +39,7 @@ export default function Contact() {
           {/* Info sidebar */}
           <FadeIn delay={150} className="md:col-span-2 space-y-8">
             <div>
-              <h3 className="text-xs font-mono tracking-widest text-[var(--green)] uppercase mb-4">
+              <h3 className="text-sm font-bold text-[var(--green)] mb-3">
                 Phone
               </h3>
               <a
@@ -54,7 +54,7 @@ export default function Contact() {
             </div>
 
             <div>
-              <h3 className="text-xs font-mono tracking-widest text-[var(--green)] uppercase mb-4">
+              <h3 className="text-sm font-bold text-[var(--green)] mb-3">
                 Email
               </h3>
               <a
@@ -66,7 +66,7 @@ export default function Contact() {
             </div>
 
             <div>
-              <h3 className="text-xs font-mono tracking-widest text-[var(--green)] uppercase mb-4">
+              <h3 className="text-sm font-bold text-[var(--green)] mb-3">
                 Location
               </h3>
               <address className="not-italic text-[var(--text-muted)] leading-relaxed">
@@ -85,7 +85,7 @@ export default function Contact() {
             </div>
 
             <div>
-              <h3 className="text-xs font-mono tracking-widest text-[var(--green)] uppercase mb-4">
+              <h3 className="text-sm font-bold text-[var(--green)] mb-3">
                 Hours
               </h3>
               <p className="text-[var(--text-muted)]">Monday – Friday</p>

@@ -45,13 +45,13 @@ export default function Hero() {
             <div className="flex flex-wrap gap-4 mb-10">
               <Link
                 href="/services"
-                className="bg-[var(--green)] text-white px-7 py-3.5 rounded-lg font-semibold text-base hover:bg-[var(--green-dark)] transition-colors"
+                className="bg-[var(--green)] text-white px-7 py-3.5 rounded-full font-bold text-base hover:bg-[var(--green-dark)] transition-colors shadow-sm"
               >
                 Our Services
               </Link>
               <Link
                 href="/contact"
-                className="border-2 border-[var(--green)] text-[var(--green)] px-7 py-3.5 rounded-lg font-semibold text-base hover:bg-[var(--green-light)] transition-colors"
+                className="border-2 border-[var(--green)] text-[var(--green)] px-7 py-3.5 rounded-full font-bold text-base hover:bg-[var(--green-light)] transition-colors"
               >
                 Contact Us
               </Link>

@@ -2,34 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
 /* ─── Brand tokens ───────────────────────────────────────────── */
 :root {
   --bg:           #ffffff;
-  --bg-surface:   #f5faf7;
-  --bg-subtle:    #edf7f1;
-  --text:         #1a2e22;
-  --text-muted:   #4a6557;
-  --green:        #2d7a50;
+  --bg-surface:   #f7faf8;
+  --bg-subtle:    #eef7f1;
+  --text:         #1c3028;
+  --text-muted:   #52706a;
+  --green:        #2e7d52;
   --green-dark:   #1f5c3a;
-  --green-light:  #e8f5ee;
+  --green-light:  #e6f4ec;
   --blue:         #1a5c8c;
   --blue-dark:    #134870;
   --blue-light:   #e6f1f8;
-  --border:       #c8ddd3;
-  --border-light: #e2eeea;
+  --border:       #ccddd5;
+  --border-light: #e3eeea;
+  --font-body:    'Nunito', sans-serif;
+  --font-display: 'Lora', serif;
 }
 
 /* ─── Base ───────────────────────────────────────────────────── */
-*  { box-sizing: border-box; }
+* { box-sizing: border-box; }
 
 html { scroll-behavior: smooth; }
 
 body {
   background-color: var(--bg);
   color: var(--text);
+  font-family: var(--font-body);
   font-size: 17px;
-  line-height: 1.7;
+  line-height: 1.75;
   -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-body);
+  font-weight: 700;
+  line-height: 1.25;
 }
 
 ::selection {
@@ -37,14 +48,12 @@ body {
   color: #fff;
 }
 
-/* ─── Focus visible ──────────────────────────────────────────── */
 :focus-visible {
   outline: 3px solid var(--green);
   outline-offset: 3px;
-  border-radius: 4px;
+  border-radius: 6px;
 }
 
-/* ─── Scrollbar ──────────────────────────────────────────────── */
 ::-webkit-scrollbar        { width: 6px; }
 ::-webkit-scrollbar-track  { background: var(--bg); }
 ::-webkit-scrollbar-thumb  { background: var(--border); border-radius: 3px; }

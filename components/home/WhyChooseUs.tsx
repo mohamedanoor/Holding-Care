@@ -35,9 +35,9 @@ export default function WhyChooseUs() {
     <section className="py-24 px-6 bg-[var(--bg-surface)]">
       <div className="max-w-6xl mx-auto">
         <FadeIn className="text-center mb-14">
-          <p className="text-sm font-mono tracking-widest text-[var(--green)] uppercase mb-4">
+          <span className="inline-block bg-[var(--green-light)] text-[var(--green-dark)] text-sm font-semibold px-4 py-1.5 rounded-full mb-4">
             Why Holding Care
-          </p>
+          </span>
           <h2 className="text-3xl md:text-4xl font-bold text-[var(--text)] mb-4">
             Care You Can Count On
           </h2>

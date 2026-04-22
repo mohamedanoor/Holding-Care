@@ -8,16 +8,16 @@ export default function ServicesPreview() {
       <div className="max-w-6xl mx-auto">
         <FadeIn className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-14">
           <div>
-            <p className="text-sm font-mono tracking-widest text-[var(--green)] uppercase mb-4">
+            <span className="inline-block bg-[var(--green-light)] text-[var(--green-dark)] text-sm font-semibold px-4 py-1.5 rounded-full mb-4">
               What We Provide
-            </p>
+            </span>
             <h2 className="text-3xl md:text-4xl font-bold text-[var(--text)]">
               Our Services
             </h2>
           </div>
           <Link
             href="/services"
-            className="text-[var(--green)] font-semibold hover:underline whitespace-nowrap"
+            className="text-[var(--green)] font-bold hover:underline whitespace-nowrap"
           >
             View all services →
           </Link>

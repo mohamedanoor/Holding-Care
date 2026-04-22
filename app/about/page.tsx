@@ -34,10 +34,10 @@ export default function About() {
       <section className="bg-[var(--bg-surface)] border-b border-[var(--border-light)] pt-32 pb-14 px-6">
         <div className="max-w-4xl mx-auto">
           <FadeIn>
-            <p className="text-sm font-mono tracking-widest text-[var(--green)] uppercase mb-4">
+            <span className="inline-block bg-[var(--green-light)] text-[var(--green-dark)] text-sm font-semibold px-4 py-1.5 rounded-full mb-5">
               About Us
-            </p>
-            <h1 className="text-4xl md:text-5xl font-semibold text-[var(--text)] leading-tight">
+            </span>
+            <h1 className="text-4xl md:text-5xl font-bold text-[var(--text)] leading-tight">
               Who We Are
             </h1>
           </FadeIn>
@@ -48,9 +48,9 @@ export default function About() {
       <section className="py-20 px-6">
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-14 items-center">
           <FadeIn>
-            <p className="text-sm font-mono tracking-widest text-[var(--green)] uppercase mb-4">
+            <span className="inline-block bg-[var(--green-light)] text-[var(--green-dark)] text-sm font-semibold px-4 py-1.5 rounded-full mb-4">
               Our Story
-            </p>
+            </span>
             <h2 className="text-3xl font-semibold text-[var(--text)] mb-6 leading-snug">
               Founded on Compassion, Built on Trust
             </h2>
@@ -93,9 +93,9 @@ export default function About() {
             />
           </FadeIn>
           <FadeIn className="order-1 md:order-2">
-            <p className="text-sm font-mono tracking-widest text-[var(--green)] uppercase mb-4">
+            <span className="inline-block bg-[var(--green-light)] text-[var(--green-dark)] text-sm font-semibold px-4 py-1.5 rounded-full mb-4">
               Our Mission
-            </p>
+            </span>
             <h2 className="text-3xl font-semibold text-[var(--text)] mb-6 leading-snug">
               Empowering Independence at Home
             </h2>
@@ -118,10 +118,10 @@ export default function About() {
       <section className="py-20 px-6">
         <div className="max-w-5xl mx-auto">
           <FadeIn className="text-center mb-14">
-            <p className="text-sm font-mono tracking-widest text-[var(--green)] uppercase mb-4">
+            <span className="inline-block bg-[var(--green-light)] text-[var(--green-dark)] text-sm font-semibold px-4 py-1.5 rounded-full mb-4">
               What Guides Us
-            </p>
-            <h2 className="text-3xl font-semibold text-[var(--text)]">
+            </span>
+            <h2 className="text-3xl font-bold text-[var(--text)]">
               Our Core Values
             </h2>
           </FadeIn>

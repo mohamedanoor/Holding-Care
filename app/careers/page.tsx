@@ -37,9 +37,9 @@ export default function Careers() {
       <section className="bg-[var(--bg-surface)] border-b border-[var(--border-light)] pt-32 pb-14 px-6">
         <div className="max-w-4xl mx-auto">
           <FadeIn>
-            <p className="text-sm font-mono tracking-widest text-[var(--green)] uppercase mb-4">
+            <span className="inline-block bg-[var(--green-light)] text-[var(--green-dark)] text-sm font-semibold px-4 py-1.5 rounded-full mb-5">
               Join Our Team
-            </p>
+            </span>
             <h1 className="text-4xl md:text-5xl font-semibold text-[var(--text)] leading-tight mb-5">
               Careers at Holding Care
             </h1>
