@@ -58,7 +58,7 @@ export default function Contact() {
                 Email
               </h3>
               <a
-                href="mailto:mohamedabdikadirn@gmail.com"
+                href="mailto:holdhandsinc@gmail.com"
                 className="text-[var(--text)] hover:text-[var(--green)] transition-colors font-medium break-all"
               >
                 holdhandsinc@gmail.com
