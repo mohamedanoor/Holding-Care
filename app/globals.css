@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Brand tokens ───────────────────────────────────────────── */
+:root {
+  --bg:           #ffffff;
+  --bg-surface:   #f5faf7;
+  --bg-subtle:    #edf7f1;
+  --text:         #1a2e22;
+  --text-muted:   #4a6557;
+  --green:        #2d7a50;
+  --green-dark:   #1f5c3a;
+  --green-light:  #e8f5ee;
+  --blue:         #1a5c8c;
+  --blue-dark:    #134870;
+  --blue-light:   #e6f1f8;
+  --border:       #c8ddd3;
+  --border-light: #e2eeea;
+}
+
+/* ─── Base ───────────────────────────────────────────────────── */
+*  { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-size: 17px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background-color: var(--green);
+  color: #fff;
+}
+
+/* ─── Focus visible ──────────────────────────────────────────── */
+:focus-visible {
+  outline: 3px solid var(--green);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* ─── Scrollbar ──────────────────────────────────────────────── */
+::-webkit-scrollbar        { width: 6px; }
+::-webkit-scrollbar-track  { background: var(--bg); }
+::-webkit-scrollbar-thumb  { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
