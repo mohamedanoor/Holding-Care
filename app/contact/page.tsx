@@ -89,7 +89,7 @@ export default function Contact() {
                 Hours
               </h3>
               <p className="text-[var(--text-muted)]">Monday – Friday</p>
-              <p className="text-[var(--text)] font-medium">8:00 am – 6:00 pm</p>
+              <p className="text-[var(--text)] font-medium">9:00 am – 5:00 pm</p>
             </div>
 
             <div className="bg-[var(--green-light)] border border-green-200 rounded-xl p-6">

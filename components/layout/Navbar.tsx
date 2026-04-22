@@ -30,7 +30,7 @@ export default function Navbar() {
           (207) 773-1400
         </a>
         <span className="mx-3 opacity-40">|</span>
-        <span className="opacity-80">Mon – Fri, 8am – 6pm</span>
+        <span className="opacity-80">Mon – Fri, 9am – 5pm</span>
       </div>
 
       {/* Main nav */}

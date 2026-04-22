@@ -56,7 +56,7 @@ export default function Footer() {
               >
                 (207) 773-1400
               </a>
-              <span className="text-xs">Mon – Fri, 8am – 6pm</span>
+              <span className="text-xs">Mon – Fri, 9am – 5pm</span>
             </li>
             <li>
               <a

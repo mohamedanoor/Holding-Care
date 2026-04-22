@@ -36,7 +36,7 @@ export default function ContactStrip() {
               {[
                 { label: "Address", value: "203 Anderson Street\nPortland, ME 04101" },
                 { label: "Phone", value: "(207) 773-1400" },
-                { label: "Hours", value: "Monday – Friday\n8:00 am – 6:00 pm" },
+                { label: "Hours", value: "Monday – Friday\n9:00 am – 5:00 pm" },
                 { label: "Email", value: "holdhandsinc@gmail.com" },
               ].map(({ label, value }) => (
                 <div
