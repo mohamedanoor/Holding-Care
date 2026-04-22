@@ -17,7 +17,7 @@ export async function POST(req: NextRequest) {
     const { error } = await resend.emails.send({
       from: "Holding Care Website <onboarding@resend.dev>",
       to: "holdhandsinc@gmail.com",
-      reply_to: email,
+      replyTo: email,
       subject: `New inquiry from ${firstName} ${lastName}`,
       html: `
         <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 32px 24px; background: #f5faf7;">
