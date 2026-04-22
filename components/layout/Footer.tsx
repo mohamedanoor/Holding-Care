@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const links = [
   { href: "/", label: "Home" },
@@ -14,14 +15,9 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6 py-16 grid md:grid-cols-3 gap-12">
         {/* Brand */}
         <div>
-          <div className="flex items-center gap-2 mb-4">
-            <div className="w-9 h-9 rounded-lg bg-[var(--green)] flex items-center justify-center">
-              <span className="text-white font-bold text-sm font-mono">HC</span>
-            </div>
-            <span className="font-semibold text-white text-lg">
-              Holding<span className="text-green-400">Care</span>
-            </span>
-          </div>
+        <div className="mb-4">
+  <Image src="/logo.png" alt="Holding Care" width={140} height={48} className="h-12 w-auto" />
+</div>
           <p className="text-sm text-gray-400 leading-relaxed max-w-xs">
             Compassionate, culturally competent personal care services — helping
             individuals live with independence and dignity at home.
