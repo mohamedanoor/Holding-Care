@@ -75,10 +75,13 @@ export default function About() {
             </p>
           </FadeIn>
           <FadeIn delay={150}>
-            <ImagePlaceholder
-              label="Our team — caring professionals dedicated to your well-being"
-              className="h-80 md:h-96"
-            />
+          <div className="relative rounded-xl overflow-hidden" style={{ height: "380px" }}>
+           <img
+              src="/holdinghandswithclient.jpg"
+              alt="Caregiver holding hands with client"
+              style={{ width: "100%", height: "100%", objectFit: "cover" }}
+  />
+</div>
           </FadeIn>
         </div>
       </section>
@@ -87,10 +90,13 @@ export default function About() {
       <section className="py-20 px-6 bg-[var(--bg-surface)]">
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-14 items-center">
           <FadeIn delay={100} className="order-2 md:order-1">
-            <ImagePlaceholder
-              label="Caregiver providing compassionate in-home support"
-              className="h-80 md:h-96"
-            />
+          <div className="relative rounded-xl overflow-hidden" style={{ height: "380px" }}>
+          <img
+            src="/clientdhands.jpg"
+            alt="Client hands resting on cane"
+            style={{ width: "100%", height: "100%", objectFit: "cover" }}
+  />
+</div>
           </FadeIn>
           <FadeIn className="order-1 md:order-2">
             <span className="inline-block bg-[var(--green-light)] text-[var(--green-dark)] text-sm font-semibold px-4 py-1.5 rounded-full mb-4">

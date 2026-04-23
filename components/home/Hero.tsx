@@ -79,15 +79,12 @@ export default function Hero() {
         {/* Image */}
         <FadeIn delay={200} className="hidden md:block">
           <div className="relative">
-            <div className="bg-[var(--green-light)] rounded-2xl w-full h-[440px] flex items-center justify-center border border-green-200">
-              <div className="text-center p-10">
-                <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1} className="text-[var(--green)] mx-auto mb-4 opacity-40">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M6.827 6.175A2.31 2.31 0 015.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 00-1.134-.175 2.31 2.31 0 01-1.64-1.055l-.822-1.316a2.192 2.192 0 00-1.736-1.039 48.774 48.774 0 00-5.232 0 2.192 2.192 0 00-1.736 1.039l-.821 1.316z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 12.75a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0z" />
-                </svg>
-                <p className="text-[var(--green-dark)] text-sm font-medium">Caregiver with client — hero photo</p>
-                <p className="text-[var(--text-muted)] text-xs mt-1">Replace with real photo</p>
-              </div>
+          <div className="relative rounded-2xl overflow-hidden" style={{ height: "440px" }}>
+          <img
+              src="/speakingwithclient.jpg"
+              alt="Caregiver speaking with client at home"
+              style={{ width: "100%", height: "100%", objectFit: "cover" }}
+              />
             </div>
             {/* Floating trust badge */}
             <div className="absolute -bottom-5 -left-5 bg-white border border-[var(--border-light)] rounded-xl shadow-md px-5 py-4">
