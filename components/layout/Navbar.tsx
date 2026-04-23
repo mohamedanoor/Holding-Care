@@ -21,7 +21,7 @@ export default function Navbar() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-[var(--border-light)] shadow-sm">
       {/* Top bar — phone number */}
-      <div className="bg-[var(--green)] text-white text-sm py-2 px-6 text-center md:text-right">
+      <div className="bg-[var(--green)] text-white text-sm py-2 px-6 text-center md:text-center">
         <span className="mr-2 opacity-80">Questions? Call us:</span>
         <a
           href="tel:+12077731400"
